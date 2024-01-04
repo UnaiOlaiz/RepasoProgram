@@ -55,6 +55,7 @@ public class BaseDeDatos {
 			con = DriverManager.getConnection("jdbc:sqlite:usuarios.db");
 			s = con.createStatement();
 			
+			//para hacer una foreing key --> comentarioSQL = "CREATE TABLE Flights (" +"codeText VARCHAR(255) PRIMARY KEY, " +"originText VARCHAR(255), " + "FOREIGN KEY (originText) REFERENCES Airport(CODE))";
 			//para hacer una primary key --> comentarioSQL = "create table usuario (nombreUsuario string primary key, correoUsuario string, tipoUsuario string, contrasena string, imagenPerfil string, descripcion string)";
 			//crear tabla Usuario
 			try {				
