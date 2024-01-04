@@ -55,9 +55,10 @@ public class BaseDeDatos {
 			con = DriverManager.getConnection("jdbc:sqlite:usuarios.db");
 			s = con.createStatement();
 			
+			//para hacer una primary key --> comentarioSQL = "create table usuario (nombreUsuario string primary key, correoUsuario string, tipoUsuario string, contrasena string, imagenPerfil string, descripcion string)";
 			//crear tabla Usuario
 			try {				
-				comentarioSQL = "create table usuario (nombreUsuario string, correoUsuario string, tipoUsuario string, contrasena string, imagenPerfil string, descripcion string)";
+				comentarioSQL = "create table usuario (nombreUsuario string , correoUsuario string, tipoUsuario string, contrasena string, imagenPerfil string, descripcion string)";
 				logger.log(Level.INFO, "BD: " + comentarioSQL);
 				s.executeUpdate(comentarioSQL);
 			} catch (SQLException e) {
