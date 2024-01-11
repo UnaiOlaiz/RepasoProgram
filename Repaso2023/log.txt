@@ -1,0 +1,8 @@
+ene 04, 2024 1:43:34 P. M. C4BasesDeDatos.LogAriketa main
+WARNING: Warning msg
+ene 04, 2024 1:43:34 P. M. C4BasesDeDatos.LogAriketa main
+SEVERE: Severe msg
+ene 04, 2024 1:43:57 P. M. C4BasesDeDatos.LogAriketa main
+WARNING: Warning msg
+ene 04, 2024 1:43:57 P. M. C4BasesDeDatos.LogAriketa main
+SEVERE: Severe msg

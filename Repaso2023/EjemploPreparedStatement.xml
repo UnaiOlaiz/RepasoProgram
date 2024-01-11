@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-05T18:51:05.130743Z</date>
+  <millis>1704480665130</millis>
+  <nanos>743000</nanos>
+  <sequence>0</sequence>
+  <logger>EjemploPreparedStatement</logger>
+  <level>INFO</level>
+  <class>C4BasesDeDatos.EjemploPreparedStatement</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Conexión establecida.</message>
+</record>
+<record>
+  <date>2024-01-05T18:51:05.171242900Z</date>
+  <millis>1704480665171</millis>
+  <nanos>242900</nanos>
+  <sequence>1</sequence>
+  <logger>EjemploPreparedStatement</logger>
+  <level>INFO</level>
+  <class>C4BasesDeDatos.EjemploPreparedStatement</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Tabla creada : create table if not exists Usuarios (id INT AUTO_INCREMENT primary key, nombre varchar(50), apellido varchar(50));</message>
+</record>
+<record>
+  <date>2024-01-05T18:51:05.186311400Z</date>
+  <millis>1704480665186</millis>
+  <nanos>311400</nanos>
+  <sequence>2</sequence>
+  <logger>EjemploPreparedStatement</logger>
+  <level>WARNING</level>
+  <class>C4BasesDeDatos.EjemploPreparedStatement</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Error en el último comando: insert into usuarios (id, nombre, apellido) values (?, ?, ?)</message>
+</record>
+</log>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-04T18:51:19.196679900Z</date>
+  <millis>1704394279196</millis>
+  <nanos>679900</nanos>
+  <sequence>0</sequence>
+  <logger>EjemploLogger</logger>
+  <level>INFO</level>
+  <class>C4BasesDeDatos.EjemploLogger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>BD: create table Usuario(nick STRING, pass STRING )</message>
+</record>
+<record>
+  <date>2024-01-04T18:51:19.217205700Z</date>
+  <millis>1704394279217</millis>
+  <nanos>205700</nanos>
+  <sequence>1</sequence>
+  <logger>EjemploLogger</logger>
+  <level>INFO</level>
+  <class>C4BasesDeDatos.EjemploLogger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>BD: select * from Usuario where nick = 'admin'</message>
+</record>
+<record>
+  <date>2024-01-04T18:51:19.358103300Z</date>
+  <millis>1704394279358</millis>
+  <nanos>103300</nanos>
+  <sequence>2</sequence>
+  <logger>EjemploLogger</logger>
+  <level>INFO</level>
+  <class>C4BasesDeDatos.EjemploLogger</class>
+  <method>actualizaTabla</method>
+  <thread>1</thread>
+  <message>BD: select * from Usuario</message>
+</record>
+</log>
